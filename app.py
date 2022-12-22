@@ -16,3 +16,7 @@ def update_code():
 @app.route('/')
 def index():
     return 'OK', 200
+
+@app.route('/metrics')
+def get_metrics():
+    return 'test:\t\ttest'
