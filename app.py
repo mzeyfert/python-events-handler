@@ -8,3 +8,4 @@ def index():
     repo = git.Repo('/home/scripts/python-events-handler')
     origin = repo.remotes.origin
     origin.pull()
+    return 'Ok'
